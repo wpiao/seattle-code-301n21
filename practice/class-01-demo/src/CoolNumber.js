@@ -5,8 +5,8 @@ class CoolNumber extends React.Component {
   render() {
     return (
       <div className="cool-number">
-        <span>{this.props.number}</span>
-        <span>{this.props.description}</span>
+        <span className="number">{this.props.number}</span>
+        <span className="description">{this.props.description}</span>
       </div>
     )
   }
